@@ -22,7 +22,10 @@ options = {
         "page-size": "Letter",
     }
 
-pdfkit.from_file("output.html", "output.pdf", options=options)
+st.write(wkhtml_path)
+
+
+pdfkit.from_file("output.html", "output.pdf", options=options, configuration=wkhtml_path)
 
 with open("output.pdf", "rb") as pdf_file:
         PDFbyte = pdf_file.read()
