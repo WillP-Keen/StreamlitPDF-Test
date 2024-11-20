@@ -7,7 +7,7 @@ env = Environment(loader=FileSystemLoader("."))
 template = env.get_template("template.html")
 
 html_out = template.render()
-
+wkhtml_path = pdfkit.configuration(wkhtmltopdf = 'wkhtmltopdfQT\bin\wkhtmltopdf')
 with open("output.html", "w") as f:
     f.write(html_out)
 
