@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 
 from jinja2 import Environment, FileSystemLoader
 import pdfkit
@@ -7,7 +8,15 @@ env = Environment(loader=FileSystemLoader("."))
 template = env.get_template("template.html")
 
 html_out = template.render()
-wkhtml_path = pdfkit.configuration(wkhtmltopdf = "wkhtmltopdfQT/bin/wkhtmltopdf")
+
+wkhtmltopdfRelPath = "wkhtmltopdfQT/bin/wkhtmltopdf"
+wkhtmltopdfAbsPath = os.path.abspath(wkhtmltopdfRelPath)
+
+st.write(wkhtmltopdfAbsPath)
+
+
+
+wkhtml_path = pdfkit.configuration(wkhtmltopdf = wkhtmltopdfAbsPath)
 with open("output.html", "w") as f:
     f.write(html_out)
 
