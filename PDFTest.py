@@ -13,6 +13,8 @@ wkhtmltopdfRelPath = "wkhtmltopdfQT/bin/wkhtmltopdf"
 wkhtmltopdfAbsPath = os.path.abspath(wkhtmltopdfRelPath)
 
 st.write(wkhtmltopdfAbsPath)
+st.write(f"Permissions for wkhtmltopdf:{oct(os.stat(wkhtmltopdfAbsPath).st_mode)}")
+
 
 
 
