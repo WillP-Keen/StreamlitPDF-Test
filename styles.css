@@ -52,7 +52,7 @@ div {
 .left {
     position: absolute;
     left: 25px;
-    top: 16px;
+    top: 165px;
     width: 47%;
 }
 
@@ -61,7 +61,7 @@ div {
     width: 47%;
     position: absolute;
     right: 25px;
-    top: 16px;
+    top: 165px;
 }
 
 .invoiceBill {
@@ -172,3 +172,47 @@ td{
     vertical-align: top;
     margin-left: 8px;
 }
+.keenLogo {
+    display: block;
+    margin: 0 auto;
+    width:64px;
+}
+
+.header {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 40mm;
+}
+
+.blobImg{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width:225px;
+}
+.filler{
+    content: "";
+    height: 10mm;
+}
+.blob{
+    position:absolute;
+    right:-1px;
+    z-index: 0;
+    height:40mm;
+    margin:0;
+    padding:0;
+  }
+  
+
+  /* Sets the footer div to cover the entire width of the page*/
+  .footer{
+    position:absolute;
+    width: 100%;
+    top: 1180px;
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    margin-bottom: 0px;
+  }
