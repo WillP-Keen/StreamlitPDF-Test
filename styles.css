@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #342f37;
+}
+
+.mainBlock {
+    border-radius: 24px;
+    background: #ceeef4;
+
+}
+
+.miniBlock {
+    border-radius: 24px;
+    background: #ceeef4;
+
+}
+
+table td+td {
+    border-left: 1px solid black;
+}
+
+h2,
+h1,
+h3 {
+    margin: 4px 1px 1px 16px;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    margin: 16px 1px 1px 16px;
+}
+
+.shortText {
+    padding: 0px 0px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    padding-top: 10px;
+}
+
+p {
+    margin: 4px 0px 4px 16px;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.left {
+    position: absolute;
+    left: 25px;
+    top: 16px;
+    width: 47%;
+}
+
+.right {
+    margin-left: 4px;
+    width: 47%;
+    position: absolute;
+    right: 25px;
+    top: 16px;
+}
+
+.invoiceBill {
+    height: 330px;
+    margin: 12px 0px;
+}
+
+.statImg {
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.monthlyTrends {
+    height: 330px;
+    margin: 12px 0px;
+}
+
+.lastWeekRecap {
+    height: 152px;
+    width: 59%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px;
+}
+
+.weeklyGoal {
+    height: 152px;
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px;
+}
+
+.finSense {
+    height: 110px;
+    margin: 12px 0px;
+}
+
+.unpaidInvoices {
+    height: 158px;
+    margin: 12px 0px;
+}
+
+.unpaidBills {
+    height: 158px;
+    margin: 12px 0px;
+}
+
+.averageRevExp {
+    margin: 12px 0px;
+    height: 144px;
+}
+
+.insights {
+    height: 530px;
+    margin: 12px 0px;
+}
+
+.half {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+.seventy {
+    display: inline-block;
+    width: 69%;
+    vertical-align: top;
+    height: 72px;
+}
+
+.thirty {
+    display: inline-block;
+    width: 29%;
+    vertical-align: top;
+    height: 72px;
+}
+
+.legend {
+    margin-left: 145px;
+    display: block;
+    width: fit-content;
+}
+
+.statImg {
+    height: 75%;
+    margin: 0 auto;
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+td{
+    padding: 0px 4px;
+}
+
+.dot {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.insightPara {
+    width: 90%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 8px;
+}
