@@ -1,218 +1,216 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #342f37;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #342f37;
+  font-size: 95%;
 }
 
 .mainBlock {
-    border-radius: 24px;
-    background: #ceeef4;
-
+  border-radius: 24px;
+  background: #ceeef4;
 }
 
 .miniBlock {
-    border-radius: 24px;
-    background: #ceeef4;
-
+  border-radius: 24px;
+  background: #ceeef4;
 }
 
-table td+td {
-    border-left: 1px solid black;
+table td + td {
+  border-left: 1px solid black;
 }
 
 h2,
 h1,
 h3 {
-    margin: 4px 1px 1px 16px;
-    text-align: center;
+  margin: 4px 1px 1px 16px;
+  text-align: center;
 }
 
 h4 {
-    text-align: center;
-    margin: 16px 1px 1px 16px;
+  text-align: center;
+  margin: 16px 1px 1px 16px;
 }
 
 .shortText {
-    padding: 0px 0px;
-    text-align: center;
+  padding: 0px 0px;
+  text-align: center;
 }
 
 h1 {
-    font-size: 28px;
-    padding-top: 10px;
+  font-size: 28px;
+  padding-top: 10px;
 }
 
 p {
-    margin: 4px 0px 4px 16px;
+  margin: 4px 0px 4px 16px;
 }
 
 div {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .left {
-    position: absolute;
-    left: 25px;
-    top: 165px;
-    width: 47%;
+  position: absolute;
+  left: 25px;
+  top: 165px;
+  width: 47%;
 }
 
 .right {
-    margin-left: 4px;
-    width: 47%;
-    position: absolute;
-    right: 25px;
-    top: 165px;
+  margin-left: 4px;
+  width: 47%;
+  position: absolute;
+  right: 25px;
+  top: 165px;
 }
 
 .invoiceBill {
-    height: 330px;
-    margin: 12px 0px;
+  height: 330px;
+  margin: 12px 0px;
 }
 
 .statImg {
-    height: 100%;
-    margin: 0 auto;
-    display: block;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
 }
 
 .monthlyTrends {
-    height: 330px;
-    margin: 12px 0px;
+  height: 330px;
+  margin: 12px 0px;
 }
 
 .lastWeekRecap {
-    height: 152px;
-    width: 59%;
-    display: inline-block;
-    vertical-align: top;
-    margin: 0px;
+  height: 152px;
+  width: 59%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0px;
 }
 
 .weeklyGoal {
-    height: 152px;
-    width: 40%;
-    display: inline-block;
-    vertical-align: top;
-    margin: 0px;
+  height: 152px;
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0px;
 }
 
 .finSense {
-    height: 110px;
-    margin: 12px 0px;
+  height: 110px;
+  margin: 12px 0px;
 }
 
 .unpaidInvoices {
-    height: 158px;
-    margin: 12px 0px;
+  height: 158px;
+  margin: 12px 0px;
 }
 
 .unpaidBills {
-    height: 158px;
-    margin: 12px 0px;
+  height: 158px;
+  margin: 12px 0px;
 }
 
 .averageRevExp {
-    margin: 12px 0px;
-    height: 144px;
+  margin: 12px 0px;
+  height: 144px;
 }
 
 .insights {
-    height: 530px;
-    margin: 12px 0px;
+  height: 530px;
+  margin: 12px 0px;
 }
 
 .half {
-    display: inline-block;
-    width: 49%;
-    vertical-align: top;
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
 }
 
 .seventy {
-    display: inline-block;
-    width: 69%;
-    vertical-align: top;
-    height: 72px;
+  display: inline-block;
+  width: 69%;
+  vertical-align: top;
+  height: 72px;
 }
 
 .thirty {
-    display: inline-block;
-    width: 29%;
-    vertical-align: top;
-    height: 72px;
+  display: inline-block;
+  width: 29%;
+  vertical-align: top;
+  height: 72px;
 }
 
 .legend {
-    margin-left: 145px;
-    display: block;
-    width: fit-content;
+  margin-left: 145px;
+  display: block;
+  width: fit-content;
 }
 
 .statImg {
-    height: 75%;
-    margin: 0 auto;
-    display: block;
+  height: 75%;
+  margin: 0 auto;
+  display: block;
 }
 
 table {
-    border-collapse: collapse;
-    margin: 0 auto;
+  border-collapse: collapse;
+  margin: 0 auto;
 }
-td{
-    padding: 0px 4px;
+td {
+  padding: 0px 4px;
 }
 
 .dot {
-    vertical-align: top;
-    display: inline-block;
+  vertical-align: top;
+  display: inline-block;
 }
 
 .insightPara {
-    width: 90%;
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 8px;
+  width: 90%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 8px;
 }
 .keenLogo {
-    display: block;
-    margin: 0 auto;
-    width:64px;
+  display: block;
+  margin: 0 auto;
+  width: 64px;
 }
 
 .header {
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    height: 40mm;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 40mm;
 }
 
-.blobImg{
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width:225px;
+.blobImg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 225px;
 }
-.filler{
-    content: "";
-    height: 10mm;
+.filler {
+  content: "";
+  height: 10mm;
 }
-.blob{
-    position:absolute;
-    right:-1px;
-    z-index: 0;
-    height:40mm;
-    margin:0;
-    padding:0;
-  }
-  
+.blob {
+  position: absolute;
+  right: -1px;
+  z-index: 0;
+  height: 40mm;
+  margin: 0;
+  padding: 0;
+}
 
-  /* Sets the footer div to cover the entire width of the page*/
-  .footer{
-    position:absolute;
-    width: 100%;
-    top: 1180px;
-    padding: 0;
-    margin: 0;
-  }
-  body{
-    margin-bottom: 0px;
-  }
+/* Sets the footer div to cover the entire width of the page*/
+.footer {
+  position: absolute;
+  width: 100%;
+  top: 1180px;
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin-bottom: 0px;
+}
